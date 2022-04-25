@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'FE_0122B_ProgettoUltimo'`, () => {
+  it(`should have as title 'FE_0122B_ProgettoFinale'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('FE_0122B_ProgettoUltimo');
+    expect(app.title).toEqual('FE_0122B_ProgettoFinale');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('FE_0122B_ProgettoUltimo app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('FE_0122B_ProgettoFinale app is running!');
   });
 });
